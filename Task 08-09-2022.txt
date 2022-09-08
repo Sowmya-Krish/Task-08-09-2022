@@ -1,0 +1,16 @@
+{% code-block language="js" %}
+var person = {
+   fname: "Nick",
+   lname: "Jonas",
+   age: 26
+}; 
+for (let x in person) {
+   console.log(x + ": "+ person[x])
+}
+
+‍{% code-block-end %} 
+
+
+window is the execution context and global object for that context's JavaScript
+document contains the DOM, initialized by parsing HTML
+screen describes the physical display's full screen
